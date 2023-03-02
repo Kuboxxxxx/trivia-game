@@ -3,18 +3,18 @@ export const Form = () => {
     <section id="gameCanvas">
       <form className="form" id="gameForm">
         <div className="mb-3">
-          <label for="a" className="form-label">
+          <label htmlFor="name" className="form-label">
             Player Name
           </label>
           <input type="text" className="form-control" id="name" required />
         </div>
 
-        <div className="form-label" for="category">
+        <div className="form-label" htmlFor="category">
           Difficulty
         </div>
         <div className="d-flex justify-content-around">
           <div className="form-check">
-            <label className="form-label" for="easy">
+            <label className="form-label" htmlFor="easy">
               Easy
             </label>
             <input
@@ -27,7 +27,7 @@ export const Form = () => {
           </div>
 
           <div className="form-check">
-            <label className="form-label" for="med">
+            <label className="form-label" htmlFor="med">
               Medium
             </label>
             <input
@@ -40,7 +40,7 @@ export const Form = () => {
           </div>
 
           <div className="form-check">
-            <label className="form-label" for="hard">
+            <label className="form-label" htmlFor="hard">
               Hard
             </label>
             <input
